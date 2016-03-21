@@ -16,6 +16,7 @@
 		84DAA1081CA0709500A3E92D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DAA1061CA0709500A3E92D /* LaunchScreen.storyboard */; };
 		84DAA1131CA0709500A3E92D /* XMLResolveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DAA1121CA0709500A3E92D /* XMLResolveTests.m */; };
 		84DAA11E1CA0709500A3E92D /* XMLResolveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DAA11D1CA0709500A3E92D /* XMLResolveUITests.m */; };
+		84DAA12C1CA070F400A3E92D /* users.xml in Resources */ = {isa = PBXBuildFile; fileRef = 84DAA12B1CA070F400A3E92D /* users.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		84DAA1191CA0709500A3E92D /* XMLResolveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XMLResolveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DAA11D1CA0709500A3E92D /* XMLResolveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLResolveUITests.m; sourceTree = "<group>"; };
 		84DAA11F1CA0709500A3E92D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DAA12B1CA070F400A3E92D /* users.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = users.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		84DAA0F41CA0709500A3E92D /* XMLResolve */ = {
 			isa = PBXGroup;
 			children = (
+				84DAA12B1CA070F400A3E92D /* users.xml */,
 				84DAA0F81CA0709500A3E92D /* AppDelegate.h */,
 				84DAA0F91CA0709500A3E92D /* AppDelegate.m */,
 				84DAA0FB1CA0709500A3E92D /* ViewController.h */,
@@ -248,6 +251,7 @@
 			files = (
 				84DAA1081CA0709500A3E92D /* LaunchScreen.storyboard in Resources */,
 				84DAA1051CA0709500A3E92D /* Assets.xcassets in Resources */,
+				84DAA12C1CA070F400A3E92D /* users.xml in Resources */,
 				84DAA1001CA0709500A3E92D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
